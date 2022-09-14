@@ -22,6 +22,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 8087
-CMD [ "waitress-serve", "--port=8087", "app:app"]
+EXPOSE 8081
+CMD [ "waitress-serve", "--port=8081", "app:app"]
 
